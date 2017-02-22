@@ -1,10 +1,7 @@
-package test;
 
 import java.util.*;//这个是什么预处理 .*是全部 但只是一层的 像什么 xx.yy.zz的东西想全部就要 xx.yy.*（xx.*是不带zz的）
-
 import javax.swing.*;
 import javax.swing.Timer;
-
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener; // 这里就是上面说的 awt.* 是不带awt.event.ActionListener的 当然想全部都带是可以awt.event.*;
@@ -176,9 +173,7 @@ public class study_log {
 				}
 				// trycatch的顺序是这样的 程序看到try 运行try{}里面的东西 如果在运行的时候发出了catch()里提到的错误 就执行catch(){}大括号里的东西 注意的是 在try里一行一行的运行一有要抛出的错误就不会执行后面的了 马上转catch
 			    repaint(); //repaint()是要刷新一次画的东西 不然不会更新的 当然我这里没有再画别的东西 所以有没有都一样 
-			    }
-
-			
+			    }			
 			}
 	}
 }
